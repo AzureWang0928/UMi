@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bupt.umi.SearchActivity" >
+
+    <item android:id="@+id/action_search"
+          android:title="search"
+          android:icon="@drawable/ic_find_normal"
+          android:showAsAction="always|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+
+
+</menu>

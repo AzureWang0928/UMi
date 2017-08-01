@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/home_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dp"
+        android:text="TextView" 
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/home_is_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/home_alarm_mark"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/home_alarm_mark"
+        android:src="@drawable/private_post" />
+
+    <TextView
+        android:id="@+id/home_route_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home_company_name"
+        android:layout_alignBottom="@+id/home_company_name"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/home_company_name"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/home_alarm_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/home_company_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home_alarm_mark" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+	
+    <style name="AppTheme" parent="AppBaseTheme">
+	    <item name="android:actionBarStyle">@style/CustomActionBar</item>
+	</style>
+    
+	<style name="CustomActionBar"
+           parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+  		<item name="android:titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+    
+    <style name="MyActionBarStyle"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/app_style_background</item>
+    </style>
+    
+	<style name="MyActionBarTitle" parent="@android:style/TextAppearance.Holo.Large">
+	    <item name="android:textColor">@color/app_style_background</item>
+	    <item name="android:textSize">20sp</item>
+	</style>
+    
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Title_Button" parent="@style/Text">
+        <item name="android:textColor">@color/app_style_background</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">#82536b</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

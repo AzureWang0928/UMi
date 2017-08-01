@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.bupt.umi.userinterface.fragment.HomeFragment" />
+
+    <fragment
+        android:id="@+id/fragment_attention"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.bupt.umi.userinterface.fragment.AttentionFragment" />
+
+    <fragment
+        android:id="@+id/fragment_find"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.bupt.umi.userinterface.fragment.FindFragment" />
+
+    <fragment
+        android:id="@+id/fragment_me"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.bupt.umi.userinterface.fragment.MeFragment" />
+
+    <com.bupt.umi.userinterface.fragment.FragmentIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd" />
+
+</LinearLayout>

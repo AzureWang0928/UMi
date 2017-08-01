@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/home_action_more"
+        android:icon="@drawable/option"
+        android:showAsAction="always"
+        android:title=""
+        android:background="#ffffff">
+        <menu>
+            <item
+                android:id="@+id/home_option_scan"
+                android:icon="@drawable/home_option_scan"
+                
+                android:orderInCategory="1"
+                android:showAsAction="ifRoom|withText"
+                android:title="扫一扫"/>
+            <item
+                android:id="@+id/home_option_search"
+                android:icon="@drawable/home_option_search"
+                android:orderInCategory="2"
+                android:showAsAction="ifRoom|withText"
+                android:title="查一查"/>
+            <item
+                android:id="@+id/home_option_nearby_site"
+                android:icon="@drawable/home_option_nearby_site"
+                android:orderInCategory="3"
+                android:showAsAction="ifRoom|withText"
+                android:title="附近活动"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bupt.umi"
+    android:versionCode="1"
+    android:versionName="16.02.23" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBar" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="OOo8d9uFjlIqUiWi29xupuXe" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.map.MapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.me.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.me.RefreshingTimeActivity"
+            android:label="@string/title_activity_refreshing_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.me.RemindingActivity"
+            android:label="@string/title_activity_reminding_type"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.find.PostActivity"
+            android:label="@string/title_activity_post"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.find.CommunityActivity"
+            android:label="@string/title_activity_community"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.find.PublicCommunityActivity"
+            android:label="@string/title_activity_public_community"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.find.PostDetailActivity"
+            android:label="@string/title_activity_post_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.home.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.attention.CompanyLineActivity"
+            android:label="@string/title_activity_company_line"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.attention.MoreLineActivity"
+            android:label="@string/title_activity_more_line"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".userinterface.attention.LineDetailsActivity"
+            android:label="@string/title_activity_line_details" >
+        </activity>
+        <activity
+            android:name=".StopDetailsActivity"
+            android:label="@string/title_activity_stop_details" >
+        </activity>
+        <activity
+            android:name=".qrscan.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_capture"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".AnimationActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bupt.umi.userinterface.me.CartActivity"
+            android:label="@string/title_activity_cart" >
+        </activity>
+    </application>
+
+</manifest>

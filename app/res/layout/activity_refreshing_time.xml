@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    android:dividerPadding="@dimen/activity_horizontal_margin"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.bupt.umi.userinterface.me.RefreshingTimeActivity" >
+
+    <ListView
+        android1:id="@+id/list_item_refreshing_time"
+        android1:layout_width="match_parent"
+        android1:layout_height="202dp"
+        android1:layout_above="@+id/add_new_address"
+        android1:layout_alignParentTop="true" >
+
+    </ListView>
+
+    <Button
+        android1:id="@+id/add_new_address"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_centerHorizontal="true"
+        android1:text="新增收货地址"
+        android:background="@color/app_style_background"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

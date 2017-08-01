@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/myself"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/activity_background">
+
+        <ImageView
+            android:id="@+id/mysely_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/me_photo" />
+
+        <ImageView
+            android:id="@+id/me_next_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_weight="6.47"
+            android:src="@drawable/nextlevel_mark" />
+
+        <TextView
+            android:id="@+id/myself_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="68dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="王昊喆"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_item_me"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_above="@+id/me_exit_button"
+        android:layout_below="@+id/myself"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="40dp"
+        android:divider="#000000"
+        android:dividerHeight="1px" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/me_exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="34dp"
+        android:text="退出登录" />
+
+</RelativeLayout>

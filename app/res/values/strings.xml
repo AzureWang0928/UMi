@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">邮美</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tab_home">"关注"</string>
+    <string name="tab_attention">"服务"</string>
+    <string name="tab_find">"产品"</string>
+    <string name="tab_me">"我"</string>
+    <string name="title_home">"关注"</string>
+    <string name="title_attention">"服务"</string>
+    <string name="title_find">"产品"</string>
+    <string name="title_me">"我"</string>
+    <string name="back">"返回"</string>
+    <string name="help">"注册"</string>
+    <string name="exit">"退出"</string>
+    <string name="fragment_search_text">"这是搜索"</string>
+    <string name="fragment_settings_text">"这是设置"</string>
+    <string name="fragment_message_text">"这是通知"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">关于我们</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">地图</string>
+    <string name="title_activity_refreshing_time">权限设置</string>
+    <string name="title_activity_reminding_type">收货地址</string>
+    <string name="title_activity_post">产品热度排行</string>
+    <string name="title_activity_community">社区</string>
+    <string name="title_activity_public_community">公共社区 </string>
+    <string name="title_activity_post_detail">产品详情</string>
+    <string name="title_activity_search">查一查</string>
+    <string name="title_activity_company_line">公司活动</string>
+    <string name="title_activity_more_line">更多路线</string>
+    <string name="title_activity_line_details">整容师详情</string>
+    <string name="title_activity_stop_details">活动详情</string>
+    <string name="title_activity_capture">扫一扫</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_cart">购物车</string>
+
+</resources>

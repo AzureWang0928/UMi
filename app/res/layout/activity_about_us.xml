@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bupt.umi.userinterface.me.AboutUsActivity" 
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/activity_background"
+    >
+
+    <TextView
+        android:id="@+id/me_about_us_command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/me_about_us_input"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/me_about_us_odds"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/set_textview_frame"
+        android:hint="意见反馈" />
+
+    <EditText
+        android:id="@+id/me_about_us_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/me_about_us_submit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/me_about_us_submit"
+        android:layout_toLeftOf="@+id/me_about_us_submit"
+        android:background="@drawable/set_textview_frame"
+        android:hint="请输入您的宝贵意见" />
+
+    <Button
+        android:id="@+id/me_about_us_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/app_style_background"
+        android:text="提交" 
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/me_about_us_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/me_about_us_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me_about_us_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"
+        android:text="UMi（V1.0.0）"
+        android:textColor="@color/app_style_background"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/me_about_us_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:id="@+id/me_about_us_odds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="官方微信公众号：UMi"
+        android:textColor="@color/app_style_background" />
+
+</RelativeLayout>
